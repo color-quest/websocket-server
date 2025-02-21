@@ -1,8 +1,8 @@
 {
-  "name": "websocket-server",
+  "name": "Color Quest WebSocket server",
   "dependencies": {
     "@deepstream/server": ""
-  }
+  },
   "scripts": {
     "start": "node start.js"
   }
