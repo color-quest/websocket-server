@@ -3,4 +3,7 @@
   "dependencies": {
     "@deepstream/server": ""
   }
+  "scripts": {
+    "start": "node start.js"
+  }
 }
