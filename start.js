@@ -9,7 +9,7 @@ const server = new Deepstream(
   connectionEndpoints:
   [
     {
-      type: 'ws-websocket',
+      type: 'ws-json',
       options:
       {
         port: port,
