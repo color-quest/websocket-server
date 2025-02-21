@@ -9,11 +9,24 @@ const server = new Deepstream(
   connectionEndpoints:
   [
     {
+      type: 'http',
+      options:
+      {
+        port: port
+      }
+    },
+    {
+      type: 'ws-binary',
+      options:
+      {
+        urlPath: '/deepstream'
+      }
+    },
+    {
       type: 'ws-json',
       options:
       {
-        port: port,
-        host: '0.0.0.0'
+        urlPath: '/deepstream-json'
       }
     }
   ]
